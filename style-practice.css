@@ -154,29 +154,34 @@ body {
     font-family: 'Gilroy';
     src: url('./fonts/Gilroy/gilroy-regular.ttf');
     font-style: normal;
-    font-weight: normal;
+    font-weight: 500;
+}
+@font-face {
+  font-family: 'Gilroy-SemiBold';
+  src: url('./fonts/Gilroy/gilroy-semibold.ttf');
 }
 
 .title {
-    width: 923px;
-    height: 74px;
+  width: 923px;
+  height: 74px;
 
-    font-family: Gilroy-Bold;
-    font-size: 60px;
-    line-height: 70px;
-    letter-spacing: 0.05em;
-    color: #3C414F;
-    margin-bottom: 51px;
-    margin-top: 211px;
+  font-family: Gilroy-Bold;
+  font-size: 60px;
+  line-height: 70px;
+  letter-spacing: 0.05em;
+  color: #3C414F;
+  margin-bottom: 51px;
+  margin-top: 211px;
 }
 
 .main-text {
-    font-family: Gilroy;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 17px;
-    line-height: 35px;
-    color: #000000;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 35px;
+  color: #000000;
+
 }
 
 .main-text p {
@@ -184,11 +189,16 @@ body {
 }
 
 .main-text li {
-    list-style-position: inside;
+  list-style-position: outside;
+  margin-bottom: 20px;
 }
 
-.main-text ul{
-    list-style-image: url('img/Ellipse\ 11.png');
+.main-text li:last-child {
+  margin-bottom: 0px;
+}
+
+.main-text ul {
+  padding-left: 50px;
 }
 
 .white-stuff-2 {
@@ -240,4 +250,97 @@ body {
 
 .contacts-list p:last-child{
     margin-bottom: 0;
+}
+
+.directions{
+  margin-top: 70px;
+ }
+
+.flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex a{
+  margin-bottom: 50px;
+  margin-right: 40px;
+}
+
+.flex div:last-child {
+  margin-bottom: 0px;
+  margin-right: 0px;
+}
+ 
+
+.button-1 {
+  width: 321px;
+  height: 46px;
+  background: linear-gradient(90.79deg, #F9E9DC 4.7%, #FFCBA0 99.76%);
+  border: 2px solid #3C414F;
+  box-sizing: border-box;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 40px;
+
+  text-align: center;
+  vertical-align: middle;
+}
+
+.button-2 {
+  width: 321px;
+  height: 46px;
+  
+  background: linear-gradient(90.79deg, #E4DDFB 4.7%, #6841DD 99.76%);
+  border: 2px solid #3C414F;
+  box-sizing: border-box;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 40px; 
+}
+
+.button-3 {
+  width: 321px;
+  height: 46px;
+
+  
+  background: linear-gradient(90.79deg, #FFEFBA 4.7%, #FBF7EA 99.76%);
+  border: 2px solid #3C414F;
+  box-sizing: border-box;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 40px;
+}
+
+.button-4 {
+  width: 321px;
+  height: 46px;
+
+  background: linear-gradient(90.79deg, #FBAEBC 4.7%, #B8485C 99.76%);
+  border: 2px solid #3C414F;
+  box-sizing: border-box;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 40px;
+}
+
+.directions-text {
+  width: 321px;
+  height: 46px;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 46px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+
+.button-1 p {
+  width: 321px;
+  height: 46px;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #000000; 
 }

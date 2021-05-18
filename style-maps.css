@@ -107,7 +107,6 @@ body {
 
 .container {
     width: 82%;
-
     margin: 0 auto;
 }
 
@@ -158,16 +157,60 @@ body {
 }
 
 .title {
-    width: 465px;
+    position: relative;
+    width: 82%;
     height: 62px;
 
     font-family: Gilroy-Bold;
-    font-size: 50px;
+    font-size: 90px;
     line-height: 59px;
     text-align: center;
     letter-spacing: 0.05em;
-    margin-top: 170px;
+
+    margin-top: 200px;
+    margin-bottom: 250px;
+    z-index: 2;
     color: #3C414F;
+}
+
+.ellipse-1 {
+    position: absolute;
+    width: 75px;
+    height: 74px;
+    left: 734px;
+    top: 320px;
+    border-radius: 50%;
+    background: linear-gradient(117.72deg, #FAD7BA 11.85%, #6841DD 90.98%);
+    box-shadow: 0px 2px 100px rgba(0, 0, 0, 0.2);
+    filter: blur(10px);
+    z-index: 1;
+}
+
+.ellipse-2 {
+    position: absolute;
+    width: 40px;
+    height: 39px;
+    left: 385px;
+    top: 420px;
+    border-radius: 50%;
+    background: linear-gradient(117.72deg, #FAD7BA 11.85%, #6841DD 90.98%);
+    box-shadow: 0px 2px 100px rgba(0, 0, 0, 0.2);
+    filter: blur(10px);
+    z-index: 1;
+        
+}
+
+.ellipse-3 {
+    position: absolute;
+    width: 54px;
+    height: 53px;
+    left: 1100px;
+    top: 560px;
+    border-radius: 50%;
+    background: linear-gradient(117.72deg, #FAD7BA 11.85%, #6841DD 90.98%);
+    box-shadow: 0px 2px 100px rgba(0, 0, 0, 0.2);
+    filter: blur(10px);   
+    z-index: 1;
 }
 
 .description {
@@ -232,16 +275,16 @@ body {
 }
 
 .profession-box {
-width: 387px;
-height: 256px;
+    width: 387px;
+    height: 256px;
 
-background: #FFFFFF;
-border: 1px solid #BAC0CF;
-box-sizing: border-box;
-border-radius: 10px;
-margin-bottom: 113px;
-display: flex;
-justify-content: center;
+    background: #FFFFFF;
+    border: 1px solid #BAC0CF;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-bottom: 113px;
+    display: flex;
+    justify-content: center;
 }
 
 .profession-box:last-child {
@@ -264,8 +307,8 @@ justify-content: center;
 }
 
 .profession-box p {
-    width: 175px;
-    height: 25px;
+    width: 387px;
+    height: 256px;
     font-family: Gilroy-Bold;
     font-size: 25px;
     line-height: 29px;

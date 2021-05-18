@@ -164,11 +164,25 @@ body {
 
 .career {
     font-family: Gilroy-Bold;
-    font-size: 80px;
-    line-height: 94px;
+    font-size: 150px;
     letter-spacing: 0.05em;
     color: #3C414F;
-    margin-top: 171px;
+    margin: 145px 0 0 0;
+    
+
+}
+
+.EMIT {
+    margin-left: 110px;
+    font-family: Gilroy-Bold;
+    font-size: 150px;
+    letter-spacing: 0.05em;
+    color: #3C414F;
+}
+
+.one-line {
+    display: flex;
+    flex-direction: row;
 }
 
 .description {
@@ -179,12 +193,14 @@ body {
     line-height: 23px;
     letter-spacing: 0.05em;
     color: #3C414F;
-    margin-top: 23px;
+    margin-top: 110px;
+    width: 353px;
+    height: 50px;
 }
 
 .for-students {
     font-family: Gilroy-Bold;
-    font-size: 50px;
+    font-size: 100px;
     line-height: 59px;
     letter-spacing: 0.05em;
     color: #3C414F;
@@ -193,8 +209,8 @@ body {
 }
 
 .buttons-for-students {
-    width: 197px;
-    height: 197px;
+    width: 250px;
+    height: 250px;
     left: 596px;
     top: 702px;
     flex-direction: column;
@@ -215,13 +231,14 @@ body {
     font-family: Gilroy;
     font-style: normal;
     font-weight: normal;
-    font-size: 15px;
+    font-size: 30px;
     color: #00123F;
     text-align: left;
 }
 
 .table-for-students {
     max-width: 438px;
+    padding-top: 100px;
 }
 
 .flex {
@@ -233,6 +250,7 @@ body {
 
 .title {
     margin-bottom: 290px;
+    margin-left: 121px;
 }
 
 .buttons-for-students p {
@@ -244,25 +262,27 @@ body {
 
 
 .list {
-    width: 446px;
-    height: 254px;
+    width: 470px;
+    height: 270px;
 
     background: linear-gradient(102.51deg, rgba(255, 255, 255, 0.3) 14.21%, rgba(255, 255, 255, 0.3) 88.62%);
     box-shadow: 0px 30px 100px rgba(0, 0, 0, 0.15), inset 5px -5px 4px rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(15px);
-    /* Note: backdrop-filter has minimal browser support */
+    backdrop-filter: blur(5px);
     
+    z-index: 2;
     border-radius: 30px;
     display: flex;
     padding: 38px;
     align-items: center;
+    
 }
 
 .flex-1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 222px;
+    margin-bottom: 350px;
+    padding-top: 250px;
 }
 .employers p {
     width: 393px;
@@ -293,6 +313,17 @@ body {
 
 .line {
     margin-left: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.line div {
+    margin-bottom: 54px;
+}
+
+.line div:last-child {
+    margin-bottom: 0px;
 }
 
 .options {
@@ -314,15 +345,14 @@ body {
 
 .white-stuff {
     width: 100%;
-    height: 699px;
-    margin-bottom: 327px;
+    height: 750px;
+    margin-bottom: 133px;
     
     background: #FFFFFF;
 }
 
 .our-projects {
     height: 160px;
-    border-bottom: 1px solid black;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -343,8 +373,9 @@ body {
     line-height: 29px;
     text-align: center;
     letter-spacing: 0.05em;
-
+    margin: auto;
     color: #3C414F;
+    z-index: 2;
 }
 
 .our-projects p {
@@ -361,11 +392,11 @@ body {
     height: 325px;
     padding: 40px;
     text-align: center;
+    position: relative;
     background: linear-gradient(90.96deg, rgba(251, 174, 188, 0.5) 0.1%, rgba(255, 255, 255, 0.5) 104.24%);
     box-shadow: 0px 30px 100px rgba(0, 0, 0, 0.2), inset 5px -5px 4px rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(15px);
-    /* Note: backdrop-filter has minimal browser support */
-    
+    backdrop-filter: blur(5px);
+
     border-radius: 20px;
     display: flex;
     justify-content: center;
@@ -396,10 +427,11 @@ body {
     box-shadow: 0px 30px 100px rgba(0, 0, 0, 0.2), inset 5px -5px 4px rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(15px);
     /* Note: backdrop-filter has minimal browser support */
-    
+    position: relative;
     border-radius: 20px;
     transition: 0.3s;
 }
+
 
 .plitka-3 {
     width: 273.35px;
@@ -419,11 +451,12 @@ body {
 
 .white-stuff-2 {
     width: 100%;
-    height: 261px;
-
+    height: 350px;
+    flex-direction: column;
     background: #FFFFFF;
     border-radius: 30px;
 }
+
 
 .contacts-phrase {
     width: 95px;
@@ -437,6 +470,7 @@ body {
     color: #00123F;
 }
 
+
 .contacts {
     width: 266px;
     height: 23px;
@@ -446,7 +480,6 @@ body {
     font-size: 20px;
     line-height: 23px;
     letter-spacing: 0.05em;
-
     color: #00123F;
 }
 
@@ -458,6 +491,7 @@ body {
     padding-top: 39px;
     display: flex;
     flex-direction: column;
+    height: 150px;
 }
 
 .contacts-list p{
@@ -466,4 +500,178 @@ body {
 
 .contacts-list p:last-child{
     margin-bottom: 0;
+}
+
+.red-ellipse-1 {
+    position: absolute;
+    width: 66.32px;
+    height: 64.53px;
+    left: 155px;
+    top: 214px;
+    z-index: 1;
+
+    border-radius: 50%;
+    background: linear-gradient(118.68deg, #FBAEBC 1.22%, #B8485C 82.91%);
+    box-shadow: 0px 2px 100px rgba(0, 0, 0, 0.2);
+    filter: blur(15px);
+}
+
+.red-ellipse-2 {
+    position: absolute;
+    width: 37px;
+    height: 36px;
+    left: 73px;
+    top: 141px;
+    z-index: 1;
+    border-radius: 50%;
+    background: linear-gradient(118.68deg, #FBAEBC 1.22%, #B8485C 82.91%);
+    box-shadow: 0px 2px 100px rgba(0, 0, 0, 0.2);
+    filter: blur(15px);
+}
+
+.yellow-ellipse-1 {
+    position: absolute;
+    width: 37px;
+    height: 36px;
+    left: 154px;
+    top: 198px;
+    z-index: 1;
+    border-radius: 50%;
+    background: linear-gradient(118.68deg, #FAD7BA 1.22%, #FAAB6B 82.91%);
+    box-shadow: 0px 2px 100px rgba(0, 0, 0, 0.2);
+    filter: blur(10px);
+}
+
+.yellow-ellipse-2 {
+    position: absolute;
+    left: 49px;
+    top: 61px;
+    width: 64.31px;
+    height: 62.57px;
+    border-radius: 50%;
+    background: linear-gradient(118.68deg, #FAD7BA 1.22%, #FAAB6B 82.91%);
+    box-shadow: 0px 2px 100px rgba(0, 0, 0, 0.2);
+    filter: blur(10px);
+    z-index: 1;
+}
+
+.purple-ellipse-1 {
+    position: absolute;
+    width: 65.54px;
+    height: 63.77px;
+    left: 172px;
+    top: 119px;
+
+    border-radius: 50%;
+    background: linear-gradient(118.68deg, #FAD7BA 1.22%, #6841DD 82.91%);
+    box-shadow: 0px 2px 100px rgba(0, 0, 0, 0.2);
+    filter: blur(10px);
+
+    z-index: 1;
+}
+
+.purple-ellipse-2 {
+    position: absolute;
+    width: 37px;
+    height: 36px;
+    left: 77px;
+    top: 220px;
+    
+    border-radius: 50%;
+    background: linear-gradient(118.68deg, #FAD7BA 1.22%, #6841DD 82.91%);
+    box-shadow: 0px 2px 100px rgba(0, 0, 0, 0.2);
+    filter: blur(10px);
+}
+
+.glass {
+    position: absolute;
+    width: 295.71px;
+    height: 227.67px;
+    left: 990px;
+    top: 350px;
+    z-index: 2;
+    background: linear-gradient(102.51deg, rgba(255, 255, 255, 0.5) 14.21%, rgba(255, 255, 255, 0.5) 88.62%);
+    box-shadow: 0px 30px 100px rgba(0, 0, 0, 0.2), inset 5px -5px 4px rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+
+    border-radius: 30px;
+    transform: rotate(-100.61deg);
+}
+
+.ellipse-glass-1 {
+    z-index: 3;
+    position: absolute;
+    width: 37px;
+    height: 36px;
+    left: 1080px;
+    top: 560px;
+    border-radius: 50%;
+    
+    background: linear-gradient(118.68deg, #FAD7BA 1.22%, #6841DD 82.91%);
+    box-shadow: 0px 2px 100px rgba(0, 0, 0, 0.2);
+}
+
+.ellipse-glass-2 {
+    z-index: 1;
+    position: absolute;
+    width: 139px;
+    height: 137px;
+    left: 1100px;
+    top: 240px;
+    border-radius: 50%;
+    
+    background: linear-gradient(117.72deg, #FAD7BA 11.85%, #6841DD 90.98%);
+    box-shadow: 0px 2px 100px rgba(0, 0, 0, 0.2);
+}
+
+.glass-text {
+    position: absolute;
+    width: 40px;
+    height: 23px;
+    left: 20px;
+    top: 170px;
+    
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    
+    text-align: center;
+    
+    color: rgba(0, 0, 0, 0.3);
+    transform: rotate(87deg);
+}
+
+.ellipse-employers-1 {
+    position: absolute;
+    width: 69px;
+    height: 67px;
+    left: 430px;
+    top: 2030px;
+    border-radius: 50%;
+    background: linear-gradient(117.72deg, #FAD7BA 11.85%, #6841DD 90.98%);
+    box-shadow: 0px 2px 100px rgba(0, 0, 0, 0.2);
+    z-index: 3;
+}
+
+.ellipse-employers-2 {
+    position: absolute;
+    width: 109px;
+    height: 107px;
+    left: 530px;
+    top: 2290px;
+    border-radius: 50%;
+    background: linear-gradient(117.72deg, #FAD7BA 11.85%, #6841DD 90.98%);
+    box-shadow: 0px 2px 100px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.marker {
+    width: 21px;
+    height: 20px;
+    background: #F9F9F9;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.1), inset 0px 1px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 50%;
+    box-shadow: inset 0px 0px 2px rgba(0, 0, 0, 0.1), inset 0px 1px 1px rgba(0, 0, 0, 0.25);;
 }
