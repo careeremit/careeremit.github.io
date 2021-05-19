@@ -115,6 +115,8 @@ body {
     margin-top: 53px;
     float: left;
     margin-right: 20px;
+    width: 200px;
+    height: 100px;
 }
 
 .menu {
@@ -259,6 +261,7 @@ body {
 .flex {
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 
 .flex a{

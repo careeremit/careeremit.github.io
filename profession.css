@@ -109,9 +109,11 @@ body {
 }
 
 .logo {
-    margin-top: 53px;
-    float: left;
-    margin-right: 20px;
+  margin-top: 53px;
+  float: left;
+  margin-right: 20px;
+  width: 200px;
+  height: 100px;
 }
 
 .menu {
@@ -173,10 +175,11 @@ body {
     font-size: 17px;
     line-height: 35px;
     color: #000000;
+    width: 600px;
 }
 
 .main-text p {
-    margin-bottom: 53px;
+    margin-bottom: 20px;
 }
 
 .white-stuff-2 {
@@ -228,5 +231,9 @@ body {
 
 .contacts-list p:last-child{
     margin-bottom: 0;
+}
+
+.front-end {
+  list-style-type: disc;
 }
   
